@@ -99,7 +99,7 @@ init = tf.global_variables_initializer()
 
 #For mini Batches
 permuts = list(np.random.permutation(m))
-minibatch_size = 80
+minibatch_size = 50
 shuffeled_X = X_train[permuts, :,:,:]
 shuffeled_Y = Y_train[permuts, :]
 
